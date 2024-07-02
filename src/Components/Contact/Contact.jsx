@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className='grid gap-y-2' id='contact'>
@@ -15,6 +17,12 @@ const Contact = () => {
             <p>Phone 📱</p>
             <p>+91 9142277970</p>
          </div>
+    </div>
+    <div className='flex justify-center gap-x-2'>
+    <a href='https://github.com/khanshahnwaz' target='_blank'><FaGithub/></a>
+
+      <a href='https://www.linkedin.com/in/khanshahnwaz/' target='_blank'><FaLinkedin/></a>
+     <a href='https://www.instagram.com/shahnwaz20_07/' target='_blank'><FaInstagram/></a>
     </div>
     </div>
   )
