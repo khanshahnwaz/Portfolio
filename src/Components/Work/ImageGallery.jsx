@@ -47,15 +47,16 @@ const images = [
     thumbnail:sixth,
     description:'Profile section where user can connect to new users or remove existing connections (as linkedin)'
   },
-  {
-    original:twelveth,
-    thumbnail:twelveth,
-    description:'Image gallery with infinite scrolling, dynamic search suggestion etc.'
-  },
+  
   {
     original:seventh,
     thumbnail:seventh,
     description:'Developed dashboard for product management'
+  },
+  {
+    original:twelveth,
+    thumbnail:twelveth,
+    description:'Image gallery with infinite scrolling, dynamic search suggestion etc.'
   },
   // {
   //   original:eighth,

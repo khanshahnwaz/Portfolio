@@ -1,8 +1,8 @@
 import React from 'react'
-import photo from '../Assets/profile_photo.jpg'
+import photo from '../Assets/fullPhoto.jpg'
 const About = () => {
   return (
-    <div className='grid gap-y-2'>
+    <div className='grid gap-y-2' id='about'>
         <p className='text-[#200971] text-left tracking-wide text-sm'>About me_______</p>
         <p className='text-left font-semibold font-serif tracking-wide text-lg'>Who I am 😎 </p>
     <div className='md:flex justify-between w-full h-max '>
