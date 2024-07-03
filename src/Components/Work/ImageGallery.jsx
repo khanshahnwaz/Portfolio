@@ -11,7 +11,6 @@ import eighth from '../Assets/eighth.png'
 import nineth from '../Assets/nineth.png'
 import tenth from '../Assets/tenth.png'
 import eleventh from '../Assets/eleventh.png'
-import twelveth from '../Assets/twelveth.png'
 const images = [
   {
     original: first,
@@ -45,35 +44,35 @@ const images = [
   {
     original:sixth,
     thumbnail:sixth,
-    description:'Profile section where user can connect to new users or remove existing connections (as linkedin)'
+    description:'Dashboard to handle connections'
   },
   
   {
     original:seventh,
     thumbnail:seventh,
-    description:'Developed dashboard for product management'
+    description:'Dashboard for product management'
   },
   {
-    original:twelveth,
-    thumbnail:twelveth,
+    original:eighth,
+    thumbnail:eighth,
+     description:'Dashboard for todo list management'
+  },
+  {original:nineth,
+    thumbnail:nineth,
+    description:'Landing page'
+  },
+  {
+    original:tenth,
+    thumbnail:tenth,
     description:'Image gallery with infinite scrolling, dynamic search suggestion etc.'
   },
-  // {
-  //   original:eighth,
-  //   thumbnail:eighth,
-
-  // },
-  // {
-  //   original:nineth,
-  //   thumbnail:nineth,
-  // },
-  // {original:tenth,
-  //   thumbnail:tenth
-  // },
+  
+ 
   {original:eleventh,
     thumbnail:eleventh,
-    description:'Landing page'
-  }
+    description:'Detailed image view'
+  },
+  
 ];
 
 
