@@ -1,6 +1,6 @@
 import React from 'react'
 import profile_photo from '../Assets/profile_photo.jpg'
-import resume from '../Assets/Resume.pdf'
+import resume from '../Assets/Shahnwaz_Developer.pdf'
 import { MdOutlineDownloading } from "react-icons/md";
 const Profile = () => {
 
